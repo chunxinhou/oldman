@@ -1,12 +1,8 @@
-# a old man
+# A OLD MAN
 
-> A delightfully simple theme system for [docsify.js](https://docsify.js.org)
+> 饭要一口一口吃，路要一步一步走
 
-- Based on CSS custom properties
-- No packages to install or files to build
-- Improved desktop and mobile experience
-- Multiple themes available
-- Legacy browser support (IE10+)
+
 
 [Get Started](#main)
 [GitHub](https://github.com/chunxinhou/oldman/)
