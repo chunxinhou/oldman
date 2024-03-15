@@ -21,7 +21,7 @@
   <script>
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
-      name: 'Simple Docsify Template',
+      name: 'A Old Man Blog',
 
       // Sidebar Configuration
       auto2top: true,
@@ -32,10 +32,26 @@
 
       // Search Plugin Configuration
       search: {
-        placeholder: 'Type to search',
+        placeholder: 'Search',
         noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 2,
+      }
+
+      //count 
+      count:{
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
       }
     };
   </script>
@@ -47,5 +63,8 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  
 </body>
 </html>
